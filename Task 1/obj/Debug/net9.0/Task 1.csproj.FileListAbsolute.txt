@@ -1,0 +1,14 @@
+D:\3rd year\Application Development\Workshop\Week 6 Workshop\Task 1\bin\Debug\net9.0\Task 1.exe
+D:\3rd year\Application Development\Workshop\Week 6 Workshop\Task 1\bin\Debug\net9.0\Task 1.deps.json
+D:\3rd year\Application Development\Workshop\Week 6 Workshop\Task 1\bin\Debug\net9.0\Task 1.runtimeconfig.json
+D:\3rd year\Application Development\Workshop\Week 6 Workshop\Task 1\bin\Debug\net9.0\Task 1.dll
+D:\3rd year\Application Development\Workshop\Week 6 Workshop\Task 1\bin\Debug\net9.0\Task 1.pdb
+D:\3rd year\Application Development\Workshop\Week 6 Workshop\Task 1\obj\Debug\net9.0\Task 1.GeneratedMSBuildEditorConfig.editorconfig
+D:\3rd year\Application Development\Workshop\Week 6 Workshop\Task 1\obj\Debug\net9.0\Task 1.AssemblyInfoInputs.cache
+D:\3rd year\Application Development\Workshop\Week 6 Workshop\Task 1\obj\Debug\net9.0\Task 1.AssemblyInfo.cs
+D:\3rd year\Application Development\Workshop\Week 6 Workshop\Task 1\obj\Debug\net9.0\Task 1.csproj.CoreCompileInputs.cache
+D:\3rd year\Application Development\Workshop\Week 6 Workshop\Task 1\obj\Debug\net9.0\Task 1.dll
+D:\3rd year\Application Development\Workshop\Week 6 Workshop\Task 1\obj\Debug\net9.0\refint\Task 1.dll
+D:\3rd year\Application Development\Workshop\Week 6 Workshop\Task 1\obj\Debug\net9.0\Task 1.pdb
+D:\3rd year\Application Development\Workshop\Week 6 Workshop\Task 1\obj\Debug\net9.0\Task 1.genruntimeconfig.cache
+D:\3rd year\Application Development\Workshop\Week 6 Workshop\Task 1\obj\Debug\net9.0\ref\Task 1.dll
