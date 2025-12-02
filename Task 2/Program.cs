@@ -27,7 +27,7 @@ public class Program
         Console.WriteLine("Price after Seasonal Discount on RS. 100: Rs. " + discount2(100));
 
         DiscountStrategy discount3 = NoDiscount;
-        Console.WriteLine("No Discount on $100: Rs." + discount3(100));
+        Console.WriteLine("No Discount on Rs.100: Rs." + discount3(100));
 
 
     }
