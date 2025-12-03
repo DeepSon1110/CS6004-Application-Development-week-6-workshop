@@ -1,5 +1,6 @@
 ﻿public  delegate int Calculate(int x, int y);
 public delegate double DiscountStrategy(double price);
+
 public class Program
 {
     public static int Add(int a, int b) => a + b;
@@ -10,6 +11,12 @@ public class Program
     public static double SeasonalDiscount(double price) => price - (price * 0.1);
 
     public static double NoDiscount(double price) => price;
+
+    public static double CalculateFinalPrice(double originalPrice, DiscountStrategy strategy)
+    {
+        return strategy(originalPrice);
+    }
+
 
 
     public static void Main()
@@ -28,6 +35,19 @@ public class Program
 
         DiscountStrategy discount3 = NoDiscount;
         Console.WriteLine("No Discount on Rs.100: Rs." + discount3(100));
+
+        double finalPrice = CalculateFinalPrice(1200, FestivalDiscount);
+        Console.WriteLine("Final Price after Festival Discount on Rs. 1200: Rs." + finalPrice);
+
+        finalPrice = CalculateFinalPrice(1200, SeasonalDiscount);
+        Console.WriteLine("Final Price after Seasonal Discount on Rs. 1200: Rs." + finalPrice);
+
+        finalPrice = CalculateFinalPrice(1200, NoDiscount);
+        Console.WriteLine("Final Price with No Discount on Rs. 1200: Rs." + finalPrice);
+
+        finalPrice = CalculateFinalPrice(1500, price => price - (price * 0.30));
+        Console.WriteLine("Final Price after 30% Discount on Rs. 1500: Rs." + finalPrice);
+
 
 
     }
